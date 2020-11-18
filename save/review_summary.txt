@@ -1,0 +1,25 @@
+business_id: 1
+business_name: Castor EDC
+business_rating: 0.6000312926277281
+average_user_rating: {'rating_overall': 4.72093023255814, 'rating_ease_of_use': 4.651162790697675, 'rating_customer_support': 4.953488372093024, 'rating_features_functionality': 4.5813953488372094, 'rating_value_for_money': 4.790697674418603, 'rating_likelihood_to_recommend': 4.697674418604652}
+aspect_summary: 
+------------------research------------------
+rating: 0.47914341517857145
+pos: research we selected Castor EDC because it seemed easy;  research easier
+neg: research studies;  research data managemen;  research forms ;  research with substantial;  Overall: We used it to collect data for medical research in several centers
+------------------software------------------
+rating: 0.7059326171875
+pos: software is easy;  software is very intuitive;  software is really intuitive;  software keeps being developed 
+neg: software with those characteristics so that collaborators won't have problems;  Comments: We have just started using the software. We found it very easy to set up on our own and use it. There are some possibilities we would like to see added, but it might be we just missed them. ;  software have occure;  Pros: The software is very practical and userfriendly.;  software for research
+------------------database------------------
+rating: 0.6578369140625
+pos: database is easy;  database builder to create your own;  Clear and user friendly database with many features 
+neg: databases to new;  database in a very structured;  database that will also create a user-friendly;  database to hav
+------------------system------------------
+rating: 0.734222412109375
+pos: Very user friendly EDC system;  system is easy;  system can perform
+neg: system nxt to the other;  system that is affordable;  Love this system!
+------------------study------------------
+rating: 0.4230211046006944
+pos: None
+neg: study on Castor;  study visit ;  study fell on me;  study ID numbering is a bit clunky;  study very easily without any complex

@@ -1,0 +1,25 @@
+business_id: 4
+business_name: Data+ Platform
+business_rating: 0.4399169921875
+average_user_rating: {'rating_overall': 4.5, 'rating_ease_of_use': 4.5, 'rating_customer_support': 4.875, 'rating_features_functionality': 4.125, 'rating_value_for_money': 5.0, 'rating_likelihood_to_recommend': 4.125}
+aspect_summary: 
+------------------data------------------
+rating: 0.4130859375
+pos: None
+neg: data stays the same;  Pros: The Data+ Platform is easy to use and simple to fill in the data.
+------------------option------------------
+rating: 0.294921875
+pos: None
+neg: Cons: Some questions could be more precise and the option "other" should be selectable more often.;  option in the system to create documents with variables that are filled automatically with the data collected from the CRFs;  option to define specific
+------------------time------------------
+rating: 0.4910888671875
+pos: None
+neg: Overall: I use Data+ mainly to keep up on my patient follow-ups, and to make sure that the CRFs are being filled-in on time.;  time saver for us
+------------------DataPlus------------------
+rating: 0.415283203125
+pos: None
+neg: DataPlus is used to support the laboratory functions such
+------------------tool------------------
+rating: 0.585205078125
+pos: None
+neg: tool to simplify ;  tool for patient
