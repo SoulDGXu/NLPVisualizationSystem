@@ -30,9 +30,40 @@ Web框架：Flask
 - model是数据库查询模块文件、数据预处理模块文件目录，
 - frontend是项目用到的前端主题样式模板。
 
-## 3. 前端页面设计
+## 3. 安装运行
 
-### 3.1 主题模板选择
+运行前需要安装的python包：
+
+| Package           | 用途说明                         | 版本   |
+| ----------------- | -------------------------------- | ------ |
+| pandas            | 结构化数据分析                   | 0.24.2 |
+| numpy             | 科学计算                         | 1.19.4 |
+| Flask             | web框架整合                      | 1.0.2  |
+| pyecharts         | 数据可视化                       | 1.8.1  |
+| werkzeug          | web应用工具包                    | 0.14.1 |
+| collections       | python标准库，数据结构常用模块   | 内置   |
+| newspaper3k       | python爬虫框架，适合抓取新闻网页 | 0.2.8  |
+| imageio           | 图像处理包                       | 内置   |
+| snapshot_selenium | 渲染图片                         | 0.0.2  |
+| jieba             | 结巴分词                         | 0.39   |
+| re                | 正则化表达                       | 内置   |
+| random            | 用于生成伪随机数                 | 内置   |
+| gensim            | NLP工具包                        | 3.7.3  |
+| bert_embedding    | 提供BERT预训练模型及词表示       | 1.0.1  |
+| nltk              | NLP工具包                        | 3.4    |
+| mxnet             | MXNet深度学习框架                | 1.4.0  |
+| sklearn           | 机器学习工具包                   | 0.19.2 |
+|                   |                                  |        |
+
+运行：
+
+找到apps文件夹下的app.py，可以直接`python app.py`运行。运行后在本地服务器启动一个 Flask 应用程序。在浏览器中输入地址：  http://127.0.0.1:5000/ 可以看到NLP可视化系统的页面，截图如下所示：
+
+![首页](.\image\首页.png)
+
+## 4. 前端页面设计
+
+### 4.1 主题模板选择
 
 本项目中，选择 Bootstrap 的主题样式模板：[Matrix Admin](https://www.matrixadmin.wrappixel.com/) 开源免费版本。Matrix Admin 分为开源版本和商业版本，开源版本的下载地址为：[http://matrixadmin.wrappixel.com/matrix-admin-package-full.zip](http://matrixadmin.wrappixel.com/matrix-admin-package-full.zip)。下载后得到matrix-admin-package-full.zip，依次解压得到matrix-admin-bt4文件。
 
@@ -54,7 +85,7 @@ Matrix Admin 的文件目录，共分为 3 个文件夹：asserts、dist 和 htm
 - dist 存储的是页面资源文件，
 - html 存储的是示例程序。
 
-### 3.2 导航菜单设计
+### 4.2 导航菜单设计
 
 ![导航菜单](.\image\导航菜单.png)
 
@@ -72,16 +103,16 @@ Matrix Admin 的文件目录，共分为 3 个文件夹：asserts、dist 和 htm
 
 
 
-## 4. 后台应用设计
+## 5. 后台应用设计
 
-### 4.1 服务接口设计
+### 5.1 服务接口设计
 
 服务接口设计包括**页面请求接口和数据请求接**口:
 
 - **页面请求接口**是浏览器对应的该页面的访问地址，
 - **数据请求接口**对应的是图表对象的数据请求地址。
 
-### 4.2 异常请求设计
+### 5.2 异常请求设计
 
 针对常见错误和异常，设计异常提示程序。在templates文件夹，存放设计好的异常页面模板：error-403.html，error-404.html，error-405.html，error-500.html。
 
@@ -89,33 +120,33 @@ Matrix Admin 的文件目录，共分为 3 个文件夹：asserts、dist 和 htm
 
 
 
-## 5. 运行演示
+## 6. 运行演示
 
-### 5.1 竞品分析
+### 6.1 竞品分析
 
 ![竞品分析](D:\Github\NLPVisualizationSystem\image\竞品分析.gif)
 
-### 5.2 自动生成词云图
+### 6.2 自动生成词云图
 
 ![自动生成词云](.\image\自动生成词云.gif)
 
-### 5.3 文本关键信息提取
+### 6.3 文本关键信息提取
 ![1](.\image\文本关键信息提取1.png)
 
 ![2](.\image\文本关键信息提取2.png)
 
 
-### 5.4 用户评价情感分析
+### 6.4 用户评价情感分析
 
 ![用户评价情感分析](.\image\用户评价情感分析.gif)
 
 
 
-### 5.5 用户画像
+### 6.5 用户画像
 
 ![用户画像分析](.\image\用户画像分析.png)
 
-### 5.6 文本分类
+### 6.6 文本分类
 
 ![文本分类](.\image\文本分类.gif)
 
@@ -123,9 +154,9 @@ Matrix Admin 的文件目录，共分为 3 个文件夹：asserts、dist 和 htm
 
 
 
-## 6. 其他问题
+## 7. 其他问题
 
-### 6.1 词云图显示问题
+### 7.1 词云图显示问题
 
 Pyecharts词云图在前端页面不显示，问题溯源：前端页面里未加载词云图的js。这里加入以下script后可以正常显示。
 
@@ -135,7 +166,7 @@ Pyecharts词云图在前端页面不显示，问题溯源：前端页面里未�
 
 参考资料：https://github.com/ecomfe/echarts-wordcloud
 
-### 6.2 Flask后台设计
+### 7.2 Flask后台设计
 
 如何将前端页面和后台程序进行联调？
 
