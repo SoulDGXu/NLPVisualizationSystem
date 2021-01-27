@@ -59,7 +59,11 @@ Web框架：Flask
 
 运行：
 
-先解压src文件夹内的static和templateswen文件夹，找到app.py，可以直接`python app.py`运行。运行后在本地服务器启动一个 Flask 应用程序。在浏览器中输入地址：  http://127.0.0.1:5000/ 可以看到NLP可视化系统的页面，截图如下所示：
+1. 先解压src文件夹内的static和templateswen文件夹，
+2. 找到src\data\glove.6B.100d.txt文件根据里面的链接下载并保存真正的glove.6B.100d.txt替换旧的。
+3. 找到app.py，可以直接`python app.py`运行。
+
+运行后在本地服务器启动一个 Flask 应用程序。在浏览器中输入地址：  http://127.0.0.1:5000/ 可以看到NLP可视化系统的页面，截图如下所示：
 
 ![首页](.\image\首页.png)
 
