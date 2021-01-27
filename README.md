@@ -59,7 +59,7 @@ Web框架：Flask
 
 运行：
 
-1. 先解压src文件夹内的static和templateswen文件夹，
+1. 先解压src文件夹内的static和templates文件夹，
 2. 找到src\data\glove.6B.100d.txt文件根据里面的链接下载并保存真正的glove.6B.100d.txt替换旧的。
 3. 找到app.py，可以直接`python app.py`运行。
 
